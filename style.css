@@ -1,0 +1,798 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,") * {
+  outline: none !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: relative;
+  z-index: 100;
+}
+
+p {
+  font-size: 1.15rem;
+}
+
+.navbar {
+  background: transparent !important;
+  transition: 0.5s;
+  height: 60px;
+}
+
+.shop-logo .nav-link:hover {
+  content: url(img/icons/shop/shop3.svg);
+  width: 80px;
+}
+
+.shop-logo .nav-link {
+  width: 80px;
+}
+
+.container .navbar-brand:hover {
+  content: url(img/icons/logo/kaffeeward_logo2.svg);
+  width: 60px;
+}
+
+.container .navbar-brand {
+  content: url(img/icons/logo/kaffeeward_logo.svg);
+  width: 60px;
+}
+
+.navbar.scrolled {
+  background: #000 !important;
+  transition: 0.2s;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+  background: #6dc4ec;
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  background: #6dc4ec;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 1);
+  padding: 20px 15px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item .nav-link:focus {
+  color: #fff;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:visited {
+  color: #6dc4ec;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.banner {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(360deg, #cbedf5, transparent);
+  pointer-events: none;
+}
+
+.banner2 {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(img/KaffeeWard_Home_5.jpg) no-repeat scroll 0% 0% transparent;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.banner2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(360deg, #fff, transparent);
+  pointer-events: none;
+}
+
+.banner3 {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(img/Wallpaper_pink_bourbon.jpg) no-repeat scroll 0% 0%
+    transparent;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.banner4 {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(img/Wallpaper_gold_coffee.jpg) no-repeat scroll 0% 0%
+    transparent;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.banner5 {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(img/kaffeeward.jpg) no-repeat scroll 0% 0% transparent;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.banner5::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(360deg, #fff, transparent);
+  pointer-events: none;
+}
+
+.banner6 {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(img/contacto_kaffeeward.jpg) no-repeat scroll 0% 0%
+    transparent;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.banner7 {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 300vh;
+  background: url(img/Wallpaper_natural.jpg) no-repeat scroll 0% 0% transparent;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.height100p {
+  height: 100vh;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.contentBox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 10;
+}
+
+.contentBox h1 {
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 5rem;
+}
+
+.contentBox p {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.sec1 {
+  padding: 50px 0;
+  background: #fbfeff;
+}
+
+.sec1 .container p,
+h2 {
+  color: #000;
+}
+
+.headerText {
+  color: #000;
+}
+
+.headerText h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.placeBox {
+  position: relative;
+  max-width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  background: #fff;
+  margin-top: 30px;
+}
+
+.placeBox .imgBx {
+  width: 100%;
+  height: 100%;
+}
+
+.placeBox .imgBx img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+
+.placeBox .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: baseline;
+  align-items: flex-end;
+}
+
+.placeBox .content h3 {
+  position: relative;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+}
+
+.placeBox .content h3 span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* ---------------------------------------------------------------------------------*/
+
+.sec2 {
+  position: relative;
+  background: url(img/Kaffeeward_Background_2.jpg);
+  height: 200hv;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 0%;
+  margin-right: 0%;
+}
+
+.sec2 h2 {
+  font-weight: 50;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 5px 5px;
+}
+
+.sec2 p {
+  font-weight: 30;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.sec2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(360deg, #fff, transparent);
+  pointer-events: none;
+}
+
+.gradient-button {
+  margin: 5px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 15px;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 25px;
+}
+.gradient-button:hover {
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 0, 0.4);
+  margin: 8px 10px 12px;
+}
+.gradient-button-1 {
+  background-image: linear-gradient(
+    to right,
+    #6dc4ec 0%,
+    #cbdbd7 51%,
+    #6dc4ec 100%
+  );
+}
+.gradient-button-1:hover {
+  background-position: right center;
+}
+
+.sec2 .container {
+  background: #000;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  width: 100%;
+}
+
+.sec2 .row .col-sm-4 {
+  text-align: center;
+}
+
+.sec2 .row .col-sm-4 .center1 {
+  padding-top: 100px;
+}
+
+.sec2 .row .col-sm-4 .center2 {
+  padding-top: 150px;
+}
+
+.publicity {
+  background: rgba(0, 0, 0, 0.85);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.publicity2 {
+  background: rgba(250, 250, 250, 0.4);
+  margin: 0%;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.publicity2 .row p {
+  color: #000;
+}
+
+.publicity2 .row h2 {
+  color: #000;
+}
+
+/* ---------------------------------------------------------------------------------*/
+
+.sec3 {
+  padding: 50px 100px;
+  background: #fff;
+  position: relative;
+  bottom: 50px;
+  height: 100hv;
+}
+
+.sec3 .col-sm-6 div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  padding-left: 40px;
+}
+
+.sec3 .row {
+  padding-top: 40px;
+}
+.sec3 .container img {
+  height: 30rem;
+}
+.sec3 .container p {
+  color: #000;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.sec3 .container h3 {
+  color: #3aa4ca;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+section .parallax {
+  width: 100%;
+  height: 100vh;
+  background-image: url("img/KaffeeWard_Home_10.jpg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 0%;
+  margin-right: 0%;
+}
+
+/* ---------------------------------------------------------------------------------*/
+
+.sec4 {
+  background: #efefef;
+  padding: 50px 50px;
+}
+
+.sec4 h2 {
+  font-size: 2.5rem;
+  color: #3aa4ca;
+  text-align: center;
+}
+.sec4 p {
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 00px;
+  padding-top: 20x;
+}
+
+.sec4 .text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.sec4 .text2 {
+  font-size: 0.9rem;
+  color: #777;
+  padding-bottom: 1px;
+}
+
+.sec4 a {
+  color: #777;
+  font-size: 2rem;
+  transition: 0.5s;
+}
+
+.sec4 a:hover {
+  color: #3aa4ca;
+}
+
+.sec4 .container {
+  text-align: center;
+}
+
+.sec4 .col-sm-4 {
+  background-color: rgba(203, 237, 246, 0.3);
+  margin: 50px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20%;
+}
+
+.sec4 img {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+/* ---------------------------------------------------------------------------------*/
+
+.headerText {
+  color: #fff;
+}
+
+.blogpost {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  background: #fff;
+}
+
+.blogpost .imgBx {
+  height: 500px;
+}
+
+.blogpost .imgBx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blogpost .content {
+  padding: 15px;
+  height: 210px;
+}
+
+.blogpost .content h1 {
+  margin: 0;
+  padding: 0 0 10px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+footer {
+  background: #fff;
+  padding: 50px 0 0;
+}
+
+footer h3 {
+  color: #3aa4ca;
+  font-size: 1.2rem;
+}
+
+footer p,
+li {
+  font-size: 0.9rem;
+}
+
+.sci {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sci li {
+  list-style: none;
+  margin: 0 5px;
+}
+
+.sci2 li {
+  list-style-type: none;
+}
+
+.sci li a {
+  color: #777;
+  font-size: 2em;
+  transition: 0.5s;
+}
+
+.sci li a:hover {
+  color: #3aa4ca;
+}
+
+.col-sm-2 {
+  text-align: center;
+}
+
+footer .image {
+  align-items: center;
+  background: #000;
+}
+
+footer .col-sm-4 {
+  text-align: center;
+}
+
+.cpryt {
+  margin-top: 5px;
+  text-align: center;
+  color: #777;
+  font-size: 0.6em;
+}
+
+.cpryt a {
+  color: #777;
+  text-align: center;
+}
+
+.cpryt a:hover {
+  color: #3aa4ca;
+  text-decoration: none;
+}
+
+/* Responsive -------------------------------------------- */
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  html,
+  body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+
+  header {
+    position: absolute;
+    width: auto !important;
+    margin-left: 0%;
+    z-index: 100;
+    left: 0%;
+  }
+
+  .banner {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(img/Kaffeward_background_movile.png) no-repeat scroll 0% 0%
+      transparent;
+    background-size: cover;
+    margin: 0 0 0 0;
+  }
+  .navbar {
+    height: 100px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2) !important;
+  }
+  .navbar-collapse {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0rem 0rem;
+    padding: 1rem 0rem;
+  }
+
+  .navbar-light .navbar-toggler {
+    background: #fff;
+    border-radius: 0;
+  }
+
+  .contentBox h1,
+  .sec2 h2 {
+    font-size: 2rem;
+  }
+
+  .sec2 .row .col-sm-4 .center1 {
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  .sec2 .row .col-sm-4 .center2 {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .sec1 {
+    padding: 20px 0;
+  }
+
+  .publicity2 {
+    background: rgba(250, 250, 250, 0.4);
+    margin: 0%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+
+  .headerText h2 {
+    font-size: 2rem;
+  }
+
+  .blog {
+    position: relative;
+    padding: 10px 0;
+    background: #fff;
+  }
+
+  .blogpost .imgBx {
+    height: 200px;
+  }
+
+  .blogpost .content {
+    padding: 15px;
+    height: 250px;
+  }
+
+  .contact {
+    padding: 20px 0;
+  }
+
+  .contact .form-control {
+    height: 40px;
+    border: 1px solid #fff;
+  }
+
+  .btnD1 {
+    padding: 10px 40px;
+    margin-top: 10px;
+  }
+
+  .sec2 {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    padding-top: 0px;
+  }
+
+  .sec3 .col-sm-6 div {
+    position: relative;
+    top: 100;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: none;
+  }
+
+  .sec3 .container img {
+    height: 17rem;
+  }
+
+  section .parallax {
+    background-image: url("img/KaffeeWard_Home_11.png");
+  }
+
+  .sec4 {
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .sec4 .col-sm-4 {
+    margin: 50px 5px 5px 5px;
+  }
+
+  .sec4 img {
+    width: 10em;
+    height: 10em;
+  }
+
+  footer {
+    background: #fff;
+    padding: 50px 0 0px;
+    margin-bottom: 0%;
+  }
+
+  .sci li {
+    list-style: none;
+    margin: 0 10px;
+  }
+
+  .sci li a {
+    color: #777;
+    font-size: 1.5rem;
+    transition: 0.5s;
+  }
+}
